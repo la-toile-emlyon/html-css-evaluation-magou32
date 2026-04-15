@@ -179,6 +179,8 @@ header .img-un img{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: #C8A27A;
+  gap: 42px;
 
 }
 
@@ -192,6 +194,29 @@ header .img-un img{
 }
 
 #deuxieme-photo img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+div h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galerie{
+    display: flex;
+    flex-direction: row;
+}
+
+.galerie-un img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.galerie-deux img{
     width: 100%;
     height: 100vh;
     object-fit: cover;
